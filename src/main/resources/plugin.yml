@@ -1,0 +1,6 @@
+name: Yoggies
+version: '0.1'
+main: shwendel.yoggies.Yoggies
+api-version: '1.21'
+commands:
+  test:
