@@ -1,10 +1,9 @@
 package shwendel.yoggies.profile;
 
+import org.bukkit.Bukkit;
+import org.bukkit.entity.Player;
 import shwendel.yoggies.equipment_bag.EquipmentBag;
-import shwendel.yoggies.item.YoggiesEquipableItemType;
-import shwendel.yoggies.item.YoggiesEquipmentItemMemory;
-import shwendel.yoggies.item.YoggiesItem;
-import shwendel.yoggies.item.YoggiesItemMemory;
+import shwendel.yoggies.item.*;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -36,9 +35,24 @@ public class ProfileMemory {
      */
     public Map<YoggiesItemMemory, YoggiesEquipableItemType> getAllEquippedItems() {
 
+        Player player = Bukkit.getPlayer(uuid);
+
         Map<YoggiesItemMemory, YoggiesEquipableItemType> getAllEquippedItems = new HashMap<>();
 
-        // TODO Armor + mainhand + offhand
+        // TODO Armor + mainhand + offhand loading data
+        System.out.println(player.getInventory().getItemInMainHand());
+
+        // TODO Load specific memory for ability items or equipment
+
+        YoggiesItem mainHandItem = YoggiesItemManager.getItem(player.getInventory().getItemInMainHand());
+
+        if(YoggiesItemManager.isItem(mainHandItem)) {
+
+            YoggiesItemMemory mainHandItemMemory = new YoggiesItemMemory(mainHandItem);
+
+            getAllEquippedItems.put(mainHandItemMemory, YoggiesEquipableItemType.MAIN_HAND);
+
+        }
 
         for(YoggiesEquipmentItemMemory equipmentItemMemory : getEquipmentBag().getEquipment()) {
 

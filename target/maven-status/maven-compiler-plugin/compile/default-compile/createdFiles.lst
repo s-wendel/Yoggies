@@ -1,6 +1,8 @@
 shwendel\yoggies\profile\ProfileManager.class
 shwendel\yoggies\EventManager.class
 shwendel\yoggies\mob\mobs\Skeleton.class
+shwendel\yoggies\item\items\equipment\HealingCharm.class
+shwendel\yoggies\util\ItemUtil.class
 shwendel\yoggies\item\YoggiesItem.class
 shwendel\yoggies\mob\mobs\AwesomeChicken.class
 shwendel\yoggies\TestCommand.class
@@ -10,8 +12,12 @@ shwendel\yoggies\item\items\ability_items\EquipmentBagItem$1.class
 shwendel\yoggies\itembuilder\ItemBuilder.class
 shwendel\yoggies\archive\TestCommand.class
 shwendel\yoggies\item\listener\AbilityItemRightClickListener.class
+shwendel\yoggies\item\YoggiesItemManager.class
 shwendel\yoggies\item\YoggiesAbilityType.class
 shwendel\yoggies\Yoggies.class
+shwendel\yoggies\util\SkullUtil.class
+shwendel\yoggies\item\gui\AllItemsGUI.class
+shwendel\yoggies\equipment_bag\gui\EquipmentBagGUI.class
 shwendel\yoggies\item\YoggiesAbilityItemMemory.class
 shwendel\yoggies\item\YoggiesItemMemory.class
 shwendel\yoggies\item\YoggiesEquipmentItemMemory.class

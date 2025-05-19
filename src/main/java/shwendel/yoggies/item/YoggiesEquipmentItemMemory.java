@@ -1,6 +1,10 @@
 package shwendel.yoggies.item;
 
-public abstract class YoggiesEquipmentItemMemory extends YoggiesAbilityItemMemory {
+public class YoggiesEquipmentItemMemory extends YoggiesAbilityItemMemory {
+
+    public YoggiesEquipmentItemMemory(YoggiesItem item) {
+        super(item);
+    }
 
     // Upgrades etc...
 

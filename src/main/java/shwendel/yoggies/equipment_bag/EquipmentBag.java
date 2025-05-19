@@ -1,6 +1,8 @@
 package shwendel.yoggies.equipment_bag;
 
+import org.bukkit.Sound;
 import org.bukkit.entity.Player;
+import shwendel.yoggies.equipment_bag.gui.EquipmentBagGUI;
 import shwendel.yoggies.item.YoggiesEquipmentItem;
 import shwendel.yoggies.item.YoggiesEquipmentItemMemory;
 
@@ -25,7 +27,9 @@ public class EquipmentBag {
 
     public void openEquipmentGUI(Player player) {
 
+        player.playSound(player.getLocation(), Sound.ITEM_BUNDLE_INSERT, 1f, 1f);
 
+        new EquipmentBagGUI(player).open();
 
     }
 

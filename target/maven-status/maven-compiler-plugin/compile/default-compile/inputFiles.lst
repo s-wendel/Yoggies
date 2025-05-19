@@ -1,7 +1,10 @@
 C:\Users\shane\IdeaProjects\Yoggies\src\main\java\shwendel\yoggies\archive\TestCommand.java
 C:\Users\shane\IdeaProjects\Yoggies\src\main\java\shwendel\yoggies\equipment_bag\EquipmentBag.java
+C:\Users\shane\IdeaProjects\Yoggies\src\main\java\shwendel\yoggies\equipment_bag\gui\EquipmentBagGUI.java
 C:\Users\shane\IdeaProjects\Yoggies\src\main\java\shwendel\yoggies\EventManager.java
+C:\Users\shane\IdeaProjects\Yoggies\src\main\java\shwendel\yoggies\item\gui\AllItemsGUI.java
 C:\Users\shane\IdeaProjects\Yoggies\src\main\java\shwendel\yoggies\item\items\ability_items\EquipmentBagItem.java
+C:\Users\shane\IdeaProjects\Yoggies\src\main\java\shwendel\yoggies\item\items\equipment\HealingCharm.java
 C:\Users\shane\IdeaProjects\Yoggies\src\main\java\shwendel\yoggies\item\listener\AbilityItemRightClickListener.java
 C:\Users\shane\IdeaProjects\Yoggies\src\main\java\shwendel\yoggies\item\YoggiesAbilityItem.java
 C:\Users\shane\IdeaProjects\Yoggies\src\main\java\shwendel\yoggies\item\YoggiesAbilityItemMemory.java
@@ -11,6 +14,7 @@ C:\Users\shane\IdeaProjects\Yoggies\src\main\java\shwendel\yoggies\item\YoggiesE
 C:\Users\shane\IdeaProjects\Yoggies\src\main\java\shwendel\yoggies\item\YoggiesEquipmentItemMemory.java
 C:\Users\shane\IdeaProjects\Yoggies\src\main\java\shwendel\yoggies\item\YoggiesItem.java
 C:\Users\shane\IdeaProjects\Yoggies\src\main\java\shwendel\yoggies\item\YoggiesItemID.java
+C:\Users\shane\IdeaProjects\Yoggies\src\main\java\shwendel\yoggies\item\YoggiesItemManager.java
 C:\Users\shane\IdeaProjects\Yoggies\src\main\java\shwendel\yoggies\item\YoggiesItemMemory.java
 C:\Users\shane\IdeaProjects\Yoggies\src\main\java\shwendel\yoggies\itembuilder\ItemBuilder.java
 C:\Users\shane\IdeaProjects\Yoggies\src\main\java\shwendel\yoggies\mob\goals\StrafePathfindingGoal.java
@@ -21,4 +25,6 @@ C:\Users\shane\IdeaProjects\Yoggies\src\main\java\shwendel\yoggies\mob\YoggiesMo
 C:\Users\shane\IdeaProjects\Yoggies\src\main\java\shwendel\yoggies\profile\ProfileManager.java
 C:\Users\shane\IdeaProjects\Yoggies\src\main\java\shwendel\yoggies\profile\ProfileMemory.java
 C:\Users\shane\IdeaProjects\Yoggies\src\main\java\shwendel\yoggies\TestCommand.java
+C:\Users\shane\IdeaProjects\Yoggies\src\main\java\shwendel\yoggies\util\ItemUtil.java
+C:\Users\shane\IdeaProjects\Yoggies\src\main\java\shwendel\yoggies\util\SkullUtil.java
 C:\Users\shane\IdeaProjects\Yoggies\src\main\java\shwendel\yoggies\Yoggies.java

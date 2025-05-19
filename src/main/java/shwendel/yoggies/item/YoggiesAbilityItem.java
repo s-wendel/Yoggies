@@ -1,6 +1,6 @@
 package shwendel.yoggies.item;
 
-import net.minecraft.world.entity.Entity;
+import org.bukkit.entity.Entity;
 import org.bukkit.inventory.ItemStack;
 
 public abstract class YoggiesAbilityItem extends YoggiesItem {

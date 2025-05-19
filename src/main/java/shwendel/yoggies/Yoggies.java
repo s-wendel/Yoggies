@@ -1,5 +1,6 @@
 package shwendel.yoggies;
 
+import mc.obliviate.inventory.InventoryAPI;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -20,6 +21,8 @@ public final class Yoggies extends JavaPlugin {
         getCommand("test").setExecutor(new TestCommand());
 
         EventManager.load();
+
+        new InventoryAPI(this).init();
 
     }
 

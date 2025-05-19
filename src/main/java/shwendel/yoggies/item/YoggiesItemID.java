@@ -4,6 +4,7 @@ public enum YoggiesItemID {
 
     EQUIPMENT_BAG,
     NOTHING,
+    HEALING_CHARM,
     ;
 
 }

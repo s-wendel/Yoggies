@@ -1,7 +1,15 @@
 package shwendel.yoggies.item;
 
-public abstract class YoggiesItemMemory {
+public class YoggiesItemMemory {
 
-    public abstract YoggiesItem getItem();
+    private YoggiesItem item;
+
+    public YoggiesItemMemory(YoggiesItem item) {
+        this.item = item;
+    }
+
+    public YoggiesItem getItem() {
+        return item;
+    }
 
 }

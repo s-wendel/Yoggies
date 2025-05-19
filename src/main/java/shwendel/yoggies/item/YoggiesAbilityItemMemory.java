@@ -1,4 +1,9 @@
 package shwendel.yoggies.item;
 
-public abstract class YoggiesAbilityItemMemory extends YoggiesItemMemory {
+public class YoggiesAbilityItemMemory extends YoggiesItemMemory {
+
+    public YoggiesAbilityItemMemory(YoggiesItem item) {
+        super(item);
+    }
+
 }

@@ -6,8 +6,8 @@ import shwendel.yoggies.item.listener.AbilityItemRightClickListener;
 
 public class EventManager {
 
-    private static Listener[] yoggiesListeners = new Listener[] {
-            new AbilityItemRightClickListener()
+    private static final Listener[] LISTENERS = new Listener[] {
+            new AbilityItemRightClickListener(),
     };
 
     public static void load() {
@@ -16,7 +16,7 @@ public class EventManager {
 
         PluginManager pluginManager = mainClass.getServer().getPluginManager();
 
-        for(Listener listener : yoggiesListeners) {
+        for(Listener listener : LISTENERS) {
 
             pluginManager.registerEvents(listener, mainClass);
 

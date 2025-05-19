@@ -1,7 +1,9 @@
 package shwendel.yoggies.item.items.ability_items;
 
-import net.minecraft.world.entity.Entity;
+import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
 import org.bukkit.Material;
+import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import shwendel.yoggies.item.YoggiesAbilityItem;
@@ -15,6 +17,11 @@ public class EquipmentBagItem extends YoggiesAbilityItem {
     @Override
     public String getName() {
         return "Equipment Bag";
+    }
+
+    @Override
+    public String getDisplayName() {
+        return ChatColor.WHITE + "Equipment Bag";
     }
 
     @Override
